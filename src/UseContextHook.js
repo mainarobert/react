@@ -5,7 +5,7 @@ import FuncContextComponent from './FuncContextComponent'
 export const ThemeContext = createContext();
 
 
-function UseContext() {
+function UseContextHook() {
     const [darkTheme, setDarkTheme] = useState(true)
 
     function toggleTheme() {
@@ -22,4 +22,4 @@ function UseContext() {
     )
 }
 
-export default UseContext
+export default UseContextHook

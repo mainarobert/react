@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ThemeContext } from "./UseContext";
+import { ThemeContext } from "./UseContextHook";
 
 function FuncContextComponent() {
 
