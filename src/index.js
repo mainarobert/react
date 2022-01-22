@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import UseRef from './UseRef';
+/* import UseRef from './UseRef';
 import ControlledComponents from './ControlledComponents'
 import UseContextHook from './UseContextHook';
-import UseEffectHook from './UseEffectHook'
+import UseEffectHook from './UseEffectHook' */
+import GitHubUser from './GitHubUser';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +12,8 @@ ReactDOM.render(
     {/* <UseRef /> */}
     {/* <ControlledComponents /> */}
     {/* <UseContextHook /> */}
-    <UseEffectHook />
+    {/* <UseEffectHook /> */}
+    <GitHubUser />
     
   </React.StrictMode>,
   document.getElementById('root')
